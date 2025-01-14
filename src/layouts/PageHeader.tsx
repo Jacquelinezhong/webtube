@@ -6,7 +6,6 @@ import { useSidebarContext } from "../contexts/SidebarContext";
 
 export default function PageHeader() {
   const [showFullWidthSearch, setshowFullWidthSearch] = useState(false);
-  const{toggle} =useSidebarContext()
 
   return (
     <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-6 mx-4">
